@@ -1,0 +1,116 @@
+div { margin: 0; padding: 0; }
+body {
+	color: #e8def6;
+	background-color: #3f2893;
+	font-family: Verdana;
+}
+.tab_active {
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	background-color: white;	
+}
+.tab {
+	background-color: white;	
+}
+.centered {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+table#foods {
+	width: 70%;
+}
+
+table#foods td{
+	padding:5px;
+	border: 1px black solid
+}
+div#page {
+	width: 768px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#counter_display {
+	color: #e8def6;
+	margin-right: auto;
+	margin-left: auto;
+    margin-top: 20px;
+}
+
+#time_display {
+    font-size:72px;
+}
+
+.descriptions {
+    font-size:10px;
+}
+
+a.buttons {
+	color: #e8def6;
+	padding: 10px;
+	font-size: 30pt;
+	text-transform: uppercase;
+	outline: none;
+
+}
+
+
+a.buttons:visited {
+	color: #e8def6;
+}
+
+a.buttons:active {
+	color: #E8DEF6;
+}
+
+a.buttons:hover {
+	color: #a666ff;
+}
+
+a.j4kfg {
+        color: #e8def6;
+        padding: 10px;
+        font-size: 15pt;
+        text-transform: uppercase;
+        outline: none;
+
+}
+
+
+a.j4kfg:visited {
+        color: #e8def6;
+}
+
+a.j4kfg:active {
+        color: #E8DEF6;
+}
+
+a.j4kfg:hover {
+        color: #a666ff;
+}
+
+
+
+td.top_scrollers {
+    padding:5px;
+    margin:0;
+}
+
+td.bottom_scrollers {
+    padding:10px;
+    margin:0;
+}
+/*
+#but_pause {
+	display:inline-block;
+	overflow: visible;
+
+	padding: 0;
+	margin: 0;
+	visibility: hidden;
+}*/
+
+a { text-decoration: none }
